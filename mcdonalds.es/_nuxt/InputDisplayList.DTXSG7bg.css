@@ -1,0 +1,19 @@
+.custom-scrollbar[data-v-ae4442f5]::-webkit-scrollbar {
+  width: 20px;
+}
+.custom-scrollbar[data-v-ae4442f5]::-webkit-scrollbar-thumb {
+  background: #ffbc0d;
+  background-clip: padding-box;
+  border-bottom: 4px solid transparent;
+  border-radius: 2px;
+  border-right: 18px solid transparent;
+  border-top: 4px solid transparent;
+}
+.containerDropdown ul[data-v-ae4442f5] {
+  box-sizing: border-box;
+  max-height: 200px;
+  max-width: 100%;
+  overflow-y: auto;
+  padding-top: 10px;
+  position: relative;
+}

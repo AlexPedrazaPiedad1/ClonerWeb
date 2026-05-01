@@ -1,0 +1,96 @@
+[class^="animated"][data-v-2800bbac] {
+  animation: slideIn-2800bbac 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+  animation-delay: 2s;
+  animation-fill-mode: both;
+  overflow: hidden;
+  position: relative;
+  transform-origin: left;
+}
+[class^="animated"][data-v-2800bbac]:after {
+  animation: shine-2800bbac 2s cubic-bezier(0.4, 0, 0.2, 1);
+  animation-delay: 3.5s;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    hsla(0, 0%, 100%, 0.3),
+    transparent
+  );
+  content: "";
+  height: 200%;
+  left: -50%;
+  position: absolute;
+  top: -50%;
+  transform: rotate(30deg);
+  width: 200%;
+}
+@keyframes slideIn-2800bbac {
+  0% {
+    clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  to {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    opacity: 1;
+  }
+}
+@keyframes shine-2800bbac {
+  0% {
+    transform: translate(-100%) rotate(30deg);
+  }
+  to {
+    transform: translate(100%) rotate(30deg);
+  }
+}
+.static[data-v-2800bbac] {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+.animated path[v-if="trademark"][data-v-2800bbac] {
+  animation: fadeIn-2800bbac 0.3s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  animation-delay: 2s;
+  opacity: 0;
+}
+@keyframes fadeIn-2800bbac {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.logo-token[data-v-2800bbac]:hover {
+  animation: pulse-2800bbac 1.5s ease-in-out infinite;
+  cursor: pointer;
+  filter: drop-shadow(0 0 5px rgba(255, 188, 13, 0.7));
+  transform-origin: center;
+}
+@keyframes pulse-2800bbac {
+  0% {
+    filter: brightness(1);
+    transform: scale(1);
+  }
+  50% {
+    filter: brightness(1.05);
+    transform: scale(1.02);
+  }
+  to {
+    filter: brightness(1);
+    transform: scale(1);
+  }
+}
+.overlay[data-v-7ed3923f] {
+  background: linear-gradient(
+    to right,
+    var(--overlay-plain-black-70),
+    transparent
+  );
+}
+.footer-banner:hover img[data-v-7ed3923f] {
+  transform: scale(1.05);
+}
+.footer-banner img[data-v-7ed3923f],
+.footer-banner:hover img[data-v-7ed3923f] {
+  transition: transform 0.3s ease-in-out;
+}

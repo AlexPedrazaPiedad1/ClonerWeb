@@ -1,0 +1,25 @@
+.containerAnim:hover.interactive {
+  transform: translate3d(0, 2px, 0);
+}
+.containerAnim:not(.interactive) {
+  cursor: default;
+}
+.containerAnim.interactive {
+  cursor: pointer;
+}
+.containerAnim:before {
+  border: 2px solid transparent;
+  border-radius: inherit;
+  content: "";
+  inset: 0;
+  pointer-events: none;
+  position: absolute;
+  z-index: 1;
+}
+.containerAnim.active-border:before,
+.containerAnim:active.interactive:before {
+  border-color: #ffbc0d;
+}
+.text-black {
+  color: #000 !important;
+}

@@ -1,0 +1,61 @@
+.flying-button[data-v-ad4ed092] {
+  position: relative;
+  transition:
+    background 0.4s ease-in-out,
+    transform 0.4s ease;
+}
+.flying-button[data-v-ad4ed092]:before {
+  background: var(--linear-loyalty) border-box;
+  border: 4px solid transparent;
+  border-radius: 999px;
+  content: "";
+  inset: 0;
+  -webkit-mask:
+    linear-gradient(#fff 0 0) padding-box,
+    linear-gradient(#fff 0 0);
+  mask:
+    linear-gradient(#fff 0 0) padding-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  position: absolute;
+  transition: all 0.4s ease-in-out;
+}
+.flying-button[data-v-ad4ed092]:hover:before {
+  opacity: 0;
+}
+.flying-button[data-v-ad4ed092]:hover {
+  background: var(--linear-loyalty);
+  transition: all 0.4s ease-in-out;
+}
+.disabled-button[data-v-ad4ed092] {
+  opacity: 0.6;
+  position: relative;
+  transition:
+    background 0.3s ease-in-out,
+    transform 0.3s ease;
+}
+.disabled-button[data-v-ad4ed092]:before {
+  background: var(--linear-loyalty) border-box;
+  border: 4px solid transparent;
+  border-radius: 999px;
+  content: "";
+  inset: 0;
+  -webkit-mask:
+    linear-gradient(#fff 0 0) padding-box,
+    linear-gradient(#fff 0 0);
+  mask:
+    linear-gradient(#fff 0 0) padding-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  position: absolute;
+  transition: opacity 0.3s ease-in-out;
+}
+.flying-button[data-v-ad4ed092]:not(.no-hover):hover:before {
+  opacity: 0;
+}
+.flying-button[data-v-ad4ed092]:not(.no-hover):hover {
+  background: var(--linear-loyalty);
+  transition: all 0.4s ease-in-out;
+}

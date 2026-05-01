@@ -1,0 +1,14 @@
+.newoffer--title-line[data-v-42566652] {
+  opacity: 0;
+  overflow: hidden;
+  transform: translateY(100%);
+}
+.newoffer--title-word[data-v-42566652] {
+  display: inline-block;
+}
+h3[ref="titleElement"][data-v-42566652] {
+  visibility: hidden;
+}
+h3[ref="titleElement"].split-ready[data-v-42566652] {
+  visibility: visible;
+}

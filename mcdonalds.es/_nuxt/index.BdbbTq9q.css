@@ -1,0 +1,35 @@
+.newsectionsinglecard--card img[data-v-2a4a3e11] {
+  backface-visibility: hidden;
+  bottom: 0 !important;
+  height: 110% !important;
+  left: 0 !important;
+  -o-object-fit: cover !important;
+  object-fit: cover !important;
+  -o-object-position: center bottom !important;
+  object-position: center bottom !important;
+  position: absolute !important;
+  top: auto !important;
+  transform: translateZ(0);
+  width: 100% !important;
+  will-change: transform;
+}
+.newsectionsinglecard--card[data-v-2a4a3e11] {
+  contain: layout style paint;
+  overflow: hidden;
+}
+.newsectionsinglecard--card .mcd-image-wrapper[data-v-2a4a3e11] {
+  bottom: 0 !important;
+  height: 110% !important;
+  left: 0 !important;
+  -o-object-fit: cover !important;
+  object-fit: cover !important;
+  position: absolute !important;
+  top: auto !important;
+  width: 100% !important;
+}
+.newsectionsinglecard--title-line[data-v-2a4a3e11] {
+  overflow: hidden;
+}
+.newsectionsinglecard--container[data-v-2a4a3e11] {
+  contain: layout style;
+}

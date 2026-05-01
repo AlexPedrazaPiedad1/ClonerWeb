@@ -1,0 +1,8 @@
+.white-background-panel[data-v-4eed72ad] {
+  background: linear-gradient(90deg, #fff0, #fff 40%);
+}
+@media (min-width: 768px) {
+  .white-background-panel[data-v-4eed72ad] {
+    background: linear-gradient(90deg, #fff0, #fff 80%);
+  }
+}

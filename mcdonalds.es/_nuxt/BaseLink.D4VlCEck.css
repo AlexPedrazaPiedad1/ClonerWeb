@@ -1,0 +1,8 @@
+.mcd-base-link[data-v-7ef2645a] {
+  display: flex !important;
+  position: relative;
+}
+.mcd-base-link.has-icon:not([disabled]):hover .icon-link[data-v-7ef2645a] {
+  transform: translate(-0.3rem);
+  transition: transform 0.3s;
+}

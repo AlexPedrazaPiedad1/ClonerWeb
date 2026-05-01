@@ -1,0 +1,17 @@
+canvas[data-v-57f2dd77] {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.fade-enter-active[data-v-31e8be27],
+.fade-leave-active[data-v-31e8be27] {
+  transition: opacity 0.5s ease;
+}
+.fade-enter-from[data-v-31e8be27],
+.fade-leave-to[data-v-31e8be27] {
+  opacity: 0;
+}
+.fade-enter-to[data-v-31e8be27],
+.fade-leave-from[data-v-31e8be27] {
+  opacity: 1;
+}

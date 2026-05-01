@@ -1,0 +1,188 @@
+.swiperCarrouselCard .swiper-pagination {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  min-height: 25px;
+}
+.swiperCarrouselCard .swiper-slide {
+  align-items: center;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  max-height: auto;
+}
+.swiperCarrouselCard .swiper {
+  max-width: 100%;
+  padding-bottom: 60px;
+  padding-left: 16px;
+  padding-right: 16px;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .swiperCarrouselCard .swiper {
+    padding-bottom: 70px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+@media (min-width: 1024px) {
+  .swiperCarrouselCard .swiper {
+    padding-bottom: 70px;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}
+.swiperCarrouselCard .swiper-wrapper {
+  display: flex;
+}
+.swiperCarrouselCard .swiper-pagination .swiper-pagination-bullet {
+  height: 0.5rem;
+  width: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(173 173 173 / var(--tw-bg-opacity, 1));
+  opacity: 1;
+}
+@media (min-width: 1024px) {
+  .swiperCarrouselCard .swiper-pagination .swiper-pagination-bullet {
+    height: 0.75rem;
+    width: 0.75rem;
+  }
+}
+.swiperCarrouselCard
+  .swiper-pagination
+  .swiper-pagination-bullet:focus-visible {
+  outline: 1px solid #000;
+}
+.swiperCarrouselCard .swiper-pagination .swiper-pagination-bullet-active {
+  height: 0.75rem;
+  width: 0.75rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+  opacity: 1;
+}
+@media (min-width: 1024px) {
+  .swiperCarrouselCard .swiper-pagination .swiper-pagination-bullet-active {
+    height: 1rem;
+    width: 1rem;
+  }
+}
+.swiperCarrouselCard
+  .swiper-pagination
+  .swiper-pagination-bullet-active:focus-visible {
+  outline: 1px solid #adadad;
+}
+.swiperCarrouselCard .swiper-button-prev {
+  bottom: 3px;
+  left: 100px;
+  top: auto;
+}
+@media (min-width: 768px) {
+  .swiperCarrouselCard .swiper-button-prev {
+    left: 280px;
+  }
+}
+@media (min-width: 1024px) {
+  .swiperCarrouselCard .swiper-button-prev {
+    bottom: 50%;
+    left: 30px;
+  }
+}
+.swiperCarrouselCard .swiper-button-next {
+  bottom: 3px;
+  right: 100px;
+  top: auto;
+}
+@media (min-width: 768px) {
+  .swiperCarrouselCard .swiper-button-next {
+    right: 280px;
+  }
+}
+@media (min-width: 1024px) {
+  .swiperCarrouselCard .swiper-button-next {
+    bottom: 50%;
+    right: 30px;
+  }
+}
+.swiperCarrouselCard .swiper-button-next,
+.swiperCarrouselCard .swiper-button-prev {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 4px 2px #00000014;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  width: 40px;
+}
+@media (min-width: 1024px) {
+  .swiperCarrouselCard .swiper-button-next,
+  .swiperCarrouselCard .swiper-button-prev {
+    height: 48px;
+    width: 48px;
+  }
+}
+.swiperCarrouselCard .swiper-button-next:focus-visible,
+.swiperCarrouselCard .swiper-button-prev:focus-visible {
+  outline: 1px solid #000;
+}
+.swiperCarrouselCard .swiper-button-disabled {
+  opacity: 1 !important;
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  content: "";
+}
+.swiper-controls {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.swiperCarrouselCard .swiper-pagination-current {
+  font-weight: 700;
+}
+.swiperCarrouselCard.few-cards .swiper {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.swiperCarrouselCard.few-cards .swiper-wrapper {
+  gap: 40px;
+  height: auto;
+}
+@media (min-width: 768px) {
+  .swiperCarrouselCard.few-cards .swiper-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+}
+.swiperCarrouselCard.few-cards .swiper-slide {
+  height: auto;
+  margin-right: 0 !important;
+  width: 100% !important;
+}
+@media (min-width: 768px) {
+  .swiperCarrouselCard.few-cards .swiper-slide {
+    width: -moz-fit-content !important;
+    width: fit-content !important;
+  }
+}
+.sr-only {
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  width: 1px;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  white-space: nowrap;
+}
+.focus\:not-sr-only:focus {
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  padding: 0.5rem;
+  width: auto;
+  clip: auto;
+  white-space: normal;
+}

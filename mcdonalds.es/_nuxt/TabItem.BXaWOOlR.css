@@ -1,0 +1,36 @@
+.tabmarker[data-v-2e29cd0e],
+.tabmarker-static[data-v-2e29cd0e] {
+  display: inline-block;
+  height: auto;
+  position: relative;
+}
+.tabmarker-static[data-v-2e29cd0e]:after,
+.tabmarker[data-v-2e29cd0e]:after {
+  background: var(--gold-500);
+  border-radius: 0 6px;
+  content: "";
+  height: var(--tabmarker-height, 5px);
+  left: 0;
+  margin-top: 4px;
+  position: absolute;
+  transform: skew(20deg);
+  transition:
+    width 0.2s ease,
+    transform 0.2s ease;
+  width: 0;
+}
+.tabmarker[data-v-2e29cd0e]:focus:after,
+.tabmarker[data-v-2e29cd0e]:hover:after {
+  width: 100%;
+}
+.tabmarker-static[data-v-2e29cd0e]:after {
+  width: 50%;
+}
+.tabmarker-static-full[data-v-2e29cd0e]:after {
+  width: 100% !important;
+}
+.tabmarker[data-v-2e29cd0e]:active:after {
+  left: auto;
+  right: 0;
+  width: 50%;
+}

@@ -1,0 +1,56 @@
+.tabmarker[data-v-cea25656],
+.tabmarker-static[data-v-cea25656] {
+  display: inline-block;
+  height: auto;
+  position: relative;
+}
+.tabmarker-static[data-v-cea25656]:after,
+.tabmarker[data-v-cea25656]:after {
+  background: var(--gold-500);
+  border-radius: 0 6px;
+  bottom: -10%;
+  box-shadow: 0 0 0 0.5px transparent;
+  clip-path: inset(0 0 0 0);
+  content: "";
+  height: var(--tabmarker-height, 5px);
+  left: 0;
+  margin-top: 4px;
+  overflow: hidden;
+  position: absolute;
+  transform: skew(20deg);
+  transform-origin: bottom left;
+  transition: width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  width: 0;
+  will-change: width;
+  z-index: -1;
+}
+.tabmarker[data-v-cea25656]:focus:after,
+.tabmarker[data-v-cea25656]:hover:after {
+  width: 100%;
+}
+.tabmarker-static[data-v-cea25656]:after {
+  width: 50%;
+}
+.tabmarker-static-full[data-v-cea25656]:after {
+  width: 100% !important;
+}
+.tabmarker[data-v-cea25656]:active:after {
+  left: 0;
+  width: 50%;
+}
+.tabmarker-disabled[data-v-cea25656] {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.tabmarker-disabled[data-v-cea25656]:after {
+  width: 0;
+}
+.h-\[3\.68px\][data-v-cea25656] {
+  --tabmarker-height: 3.68px;
+}
+.h-\[6px\][data-v-cea25656] {
+  --tabmarker-height: 6px;
+}
+.h-\[9\.2px\][data-v-cea25656] {
+  --tabmarker-height: 9.2px;
+}

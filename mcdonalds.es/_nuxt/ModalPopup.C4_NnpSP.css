@@ -1,0 +1,85 @@
+.close-btn[data-v-47b87e7e]:focus-visible {
+  outline: 2px solid #000 !important;
+}
+.modal-container[data-v-47b87e7e] {
+  padding: 2rem 1rem;
+  position: absolute;
+}
+@media (min-width: 768px) {
+  .modal-container[data-v-47b87e7e] {
+    border-radius: 24px;
+    bottom: auto;
+    max-height: 944px;
+    max-width: 580px;
+    padding: 2.5rem 1.5rem;
+    position: relative;
+  }
+}
+@media (min-width: 1024px) {
+  .modal-container[data-v-47b87e7e] {
+    max-width: 720px;
+    padding: 2.5rem;
+  }
+}
+.modal-container[data-v-47b87e7e] {
+  width: 100%;
+}
+.modal-content[data-v-47b87e7e] {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+@media (min-width: 1024px) {
+  .modal-content[data-v-47b87e7e] {
+    gap: 1.5rem;
+  }
+}
+.modal-content[data-v-47b87e7e] {
+  flex: 1;
+  max-height: calc(100dvh - 180px);
+  min-height: 0;
+  overflow-y: auto;
+  padding-bottom: 16px;
+  padding-right: 16px;
+}
+.custom-scrollbar[data-v-47b87e7e]::-webkit-scrollbar {
+  width: 20px;
+}
+.custom-scrollbar[data-v-47b87e7e]::-webkit-scrollbar-thumb {
+  background: #ffbc0d;
+  background-clip: padding-box;
+  border-bottom: 18px solid transparent;
+  border-radius: 2px;
+  border-right: 18px solid transparent;
+  border-top: 18px solid transparent;
+}
+.modal-animation-down[data-v-47b87e7e] {
+  animation: modalDropDown-47b87e7e 0.3s ease-out forwards;
+  width: calc(100% - 32px);
+}
+.modal-container[data-v-47b87e7e]:not(.modal-animation-down) {
+  width: 100%;
+}
+.modal-animation-up[data-v-47b87e7e] {
+  animation: modalDropUp-47b87e7e 0.3s ease-out forwards;
+}
+@keyframes modalDropDown-47b87e7e {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes modalDropUp-47b87e7e {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,253 @@
+.swiperCarrouselCardOverlay {
+  margin: 0 auto;
+  max-width: 1200px;
+  overflow: visible !important;
+  position: relative;
+  width: 100%;
+}
+.swiperCarrouselCardOverlay .swiper {
+  overflow: hidden !important;
+  padding: 20px 50px 64px;
+}
+@media (min-width: 768px) {
+  .swiperCarrouselCardOverlay .swiper {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media (min-width: 1024px) {
+  .swiperCarrouselCardOverlay .swiper {
+    padding-bottom: 56px;
+  }
+}
+.swiperCarrouselCardOverlay .swiper-wrapper {
+  overflow: visible !important;
+}
+.swiperCarrouselCardOverlay .swiper-slide {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  opacity: 1;
+  transform: scale(0.9);
+  transition: all 0.3s ease;
+  width: 240px;
+  z-index: 1;
+}
+@media (min-width: 768px) {
+  .swiperCarrouselCardOverlay .swiper-slide {
+    width: 320px;
+  }
+}
+.swiperCarrouselCardOverlay .swiper-slide-active {
+  opacity: 1;
+  transform: scale(1);
+  z-index: 2;
+}
+.swiperCarrouselCardOverlay .swiper-slide-next,
+.swiperCarrouselCardOverlay .swiper-slide-prev {
+  opacity: 1;
+  z-index: 1;
+}
+.swiperCarrouselCardOverlay
+  .swiper-slide:not(.swiper-slide-active):not(.swiper-slide-prev):not(
+    .swiper-slide-next
+  ) {
+  opacity: 0;
+  visibility: hidden;
+}
+.swiperCarrouselCardOverlay .swiper-pagination {
+  align-items: center;
+  display: flex;
+  font-size: 14px !important;
+  gap: 8px;
+  justify-content: center;
+  min-height: 25px;
+}
+@media (min-width: 1024px) {
+  .swiperCarrouselCardOverlay .swiper-pagination {
+    font-size: 24px !important;
+  }
+}
+.swiperCarrouselCardOverlay .swiper-pagination .swiper-pagination-bullet {
+  height: 0.5rem;
+  width: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(173 173 173 / var(--tw-bg-opacity, 1));
+  opacity: 1;
+}
+@media (min-width: 1024px) {
+  .swiperCarrouselCardOverlay .swiper-pagination .swiper-pagination-bullet {
+    height: 0.75rem;
+    width: 0.75rem;
+  }
+}
+.swiperCarrouselCardOverlay
+  .swiper-pagination
+  .swiper-pagination-bullet:focus-visible {
+  outline: 2px solid #000;
+}
+.theme-black .swiper-pagination .swiper-pagination-bullet-active {
+  height: 0.75rem;
+  width: 0.75rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+  opacity: 1;
+}
+@media (min-width: 1024px) {
+  .theme-black .swiper-pagination .swiper-pagination-bullet-active {
+    height: 1rem;
+    width: 1rem;
+  }
+}
+.swiperCarrouselCardOverlay
+  .swiper-pagination
+  .swiper-pagination-bullet-active:focus-visible {
+  outline: 2px solid #adadad;
+}
+.theme-white .swiper-pagination .swiper-pagination-bullet-active {
+  height: 0.75rem;
+  width: 0.75rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+  opacity: 1;
+}
+@media (min-width: 1024px) {
+  .theme-white .swiper-pagination .swiper-pagination-bullet-active {
+    height: 1rem;
+    width: 1rem;
+  }
+}
+.swiperCarrouselCardOverlay .swiper-button-prev {
+  bottom: 3px;
+  left: 40%;
+  top: auto;
+  transform: translate(-60px);
+}
+@media (min-width: 768px) {
+  .swiperCarrouselCardOverlay .swiper-button-prev {
+    left: 280px;
+    transform: none;
+  }
+}
+@media (min-width: 1024px) {
+  .swiperCarrouselCardOverlay .swiper-button-prev {
+    bottom: 55%;
+    left: 20px;
+    transform: translateY(55%);
+  }
+}
+@media (min-width: 1200px) {
+  .swiperCarrouselCardOverlay .swiper-button-prev {
+    left: 0;
+  }
+}
+.swiperCarrouselCardOverlay .swiper-button-next {
+  bottom: 3px;
+  right: 40%;
+  top: auto;
+  transform: translate(60px);
+}
+@media (min-width: 768px) {
+  .swiperCarrouselCardOverlay .swiper-button-next {
+    right: 280px;
+    transform: none;
+  }
+}
+@media (min-width: 1024px) {
+  .swiperCarrouselCardOverlay .swiper-button-next {
+    bottom: 55%;
+    right: 20px;
+    transform: translateY(55%);
+  }
+}
+@media (min-width: 1200px) {
+  .swiperCarrouselCardOverlay .swiper-button-next {
+    right: 0;
+  }
+}
+.swiperCarrouselCardOverlay .swiper-button-next,
+.swiperCarrouselCardOverlay .swiper-button-prev {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 4px 2px #00000014;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  width: 40px;
+}
+@media (min-width: 1024px) {
+  .swiperCarrouselCardOverlay .swiper-button-next,
+  .swiperCarrouselCardOverlay .swiper-button-prev {
+    height: 48px;
+    width: 48px;
+  }
+}
+.swiperCarrouselCardOverlay .swiper-button-disabled {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  opacity: 1 !important;
+}
+.swiperCarrouselCardOverlay .swiper-button-next:after,
+.swiperCarrouselCardOverlay .swiper-button-prev:after {
+  content: "";
+}
+.swiperCarrouselCardOverlay .swiper-button-next:focus-visible,
+.swiperCarrouselCardOverlay .swiper-button-prev:focus-visible {
+  outline: 1px solid #000;
+}
+.swiperCarrouselCardOverlay .swiper-controls {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.swiperCarrouselCardOverlay .swiper-pagination-current {
+  font-weight: 700;
+}
+.hide-controls .swiper-button-next,
+.hide-controls .swiper-button-prev {
+  display: none !important;
+}
+.swiperCarrouselCardOverlay .swiper-pagination-fraction {
+  color: #000;
+  font-size: 16px;
+}
+.swiperCarrouselCardOverlay .swiper-pagination-bullets {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+.swiperCarrouselCardOverlay .swiper-pagination-bullets :focus-visible {
+  border: 2px solid #ffbc0d;
+}
+.swiperCarrouselCardOverlay .swiper-pagination-bullet {
+  background: #adadad;
+  height: 8px;
+  opacity: 1;
+  width: 8px;
+}
+.swiperCarrouselCardOverlay .swiper-pagination-bullet-active {
+  background: #000;
+  transform: scale(1.2);
+}
+.sr-only {
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  width: 1px;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  white-space: nowrap;
+}
+.focus\:not-sr-only:focus {
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  padding: 0.5rem;
+  width: auto;
+  clip: auto;
+  white-space: normal;
+}

@@ -1,0 +1,92 @@
+.coin[data-v-d3204247] {
+  position: absolute;
+  will-change: transform;
+}
+@media (min-width: 1920px) {
+  .splittext-mainoffer-title[data-v-d3204247] {
+    line-height: 1.15;
+  }
+}
+@media (min-width: 2200px) {
+  .splittext-mainoffer-title[data-v-d3204247] {
+    line-height: 1.1;
+  }
+}
+@media (min-width: 3000px) {
+  .splittext-mainoffer-title[data-v-d3204247] {
+    line-height: 1.05;
+  }
+}
+[data-v-d89a631e] .split-line {
+  clip-path: inset(0 0 0 0);
+  display: block;
+  line-height: 1.2;
+  overflow: hidden;
+  position: relative;
+}
+[data-v-d89a631e] .split-word {
+  display: inline-block;
+  transform-origin: center bottom;
+  will-change: transform, opacity;
+}
+[data-v-d89a631e] .swiper-pagination-fraction {
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+  left: auto;
+  right: auto;
+  top: auto;
+  width: auto;
+  z-index: 20;
+}
+[data-v-d89a631e] .swiper-pagination-current {
+  font-weight: 700;
+}
+[data-v-d89a631e] .swiper-scrollbar {
+  display: none;
+}
+.carrousel-bg-gradient[data-v-d89a631e] {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.35),
+    rgba(0, 0, 0, 0.15) 60%,
+    transparent
+  );
+  inset: 0;
+  pointer-events: none;
+  position: absolute;
+  z-index: 2;
+}
+.carrousel-bg-gradient--subtle[data-v-d89a631e] {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.18),
+    rgba(0, 0, 0, 0.08) 60%,
+    transparent
+  );
+}
+.sr-only[data-v-d89a631e],
+.sr-only[data-v-d89a631e]:focus {
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  clip: rect(0, 0, 0, 0) !important;
+  border: 0 !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  white-space: nowrap !important;
+}
+section > div[data-v-2cec30f2] {
+  will-change: transform, opacity;
+}
+@media (prefers-reduced-motion: reduce) {
+  section > div[data-v-2cec30f2] {
+    transform: none !important;
+    transition: none !important;
+  }
+}
