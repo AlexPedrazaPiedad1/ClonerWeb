@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ca" xml:lang="ca">
+
+<head>
+    <title>Inicia sessió en aquest lloc | Girona</title>
+    <link rel="shortcut icon" href="../theme/image.php/sallenetboost/theme/1777415323/favicon.ico" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="moodle, Inicia sessió en aquest lloc | Girona" />
+    <link rel="stylesheet" type="text/css" href="../theme/yui_comboo.css" />
+    <link rel="stylesheet" type="text/css" href="../theme/yui_combo.css" />
+    <script id="firstthemesheet"
+        type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script>
+    <link rel="stylesheet" type="text/css" href="../theme/styles.php/sallenetboost/1777415323_1777415476/all.css" />
+    <script>
+        //<![CDATA[
+        var M = {}; M.yui = {};
+        M.pageloadstarttime = new Date();
+        M.cfg = { "wwwroot": "https:\/\/lasallegirona.sallenet.org", "apibase": "https:\/\/lasallegirona.sallenet.org\/r.php\/api", "homeurl": {}, "sesskey": "FcQNih0lrl", "sessiontimeout": "7200", "sessiontimeoutwarning": "1200", "themerev": "1777415323", "slasharguments": 1, "theme": "sallenetboost", "iconsystemmodule": "core\/icon_system_fontawesome", "jsrev": "1777415323", "admin": "admin", "svgicons": true, "usertimezone": "Europa \/ Berl\u00edn", "language": "ca", "courseId": 1, "courseContextId": 2, "contextid": 1, "contextInstanceId": 0, "langrev": 1777415323, "templaterev": "1777415323", "siteId": 1, "userId": 0 }; var yui1ConfigFn = function (me) { if (/-skin|reset|fonts|grids|base/.test(me.name)) { me.type = 'css'; me.path = me.path.replace(/\.js/, '.css'); me.path = me.path.replace(/\/yui2-skin/, '/assets/skins/sam/yui2-skin') } };
+        var yui2ConfigFn = function (me) {
+            var parts = me.name.replace(/^moodle-/, '').split('-'), component = parts.shift(), module = parts[0], min = '-min'; if (/-(skin|core)$/.test(me.name)) { parts.pop(); me.type = 'css'; min = '' }
+            if (module) { var filename = parts.join('-'); me.path = component + '/' + module + '/' + filename + min + '.' + me.type } else { me.path = component + '/' + component + '.' + me.type }
+        };
+        YUI_config = { "debug": false, "base": "https:\/\/lasallegirona.sallenet.org\/lib\/yuilib\/3.18.1\/", "comboBase": "https:\/\/lasallegirona.sallenet.org\/theme\/yui_combo.php?", "combine": true, "filter": null, "insertBefore": "firstthemesheet", "groups": { "yui2": { "base": "https:\/\/lasallegirona.sallenet.org\/lib\/yuilib\/2in3\/2.9.0\/build\/", "comboBase": "https:\/\/lasallegirona.sallenet.org\/theme\/yui_combo.php?", "combine": true, "ext": false, "root": "2in3\/2.9.0\/build\/", "patterns": { "yui2-": { "group": "yui2", "configFn": yui1ConfigFn } } }, "moodle": { "name": "moodle", "base": "https:\/\/lasallegirona.sallenet.org\/theme\/yui_combo.php?m\/1777415323\/", "combine": true, "comboBase": "https:\/\/lasallegirona.sallenet.org\/theme\/yui_combo.php?", "ext": false, "root": "m\/1777415323\/", "patterns": { "moodle-": { "group": "moodle", "configFn": yui2ConfigFn } }, "filter": null, "modules": { "moodle-core-actionmenu": { "requires": ["base", "event", "node-event-simulate"] }, "moodle-core-dragdrop": { "requires": ["base", "node", "io", "dom", "dd", "event-key", "event-focus", "moodle-core-notification"] }, "moodle-core-maintenancemodetimer": { "requires": ["base", "node"] }, "moodle-core-lockscroll": { "requires": ["plugin", "base-build"] }, "moodle-core-event": { "requires": ["event-custom"] }, "moodle-core-notification": { "requires": ["moodle-core-notification-dialogue", "moodle-core-notification-alert", "moodle-core-notification-confirm", "moodle-core-notification-exception", "moodle-core-notification-ajaxexception"] }, "moodle-core-notification-dialogue": { "requires": ["base", "node", "panel", "escape", "event-key", "dd-plugin", "moodle-core-widget-focusafterclose", "moodle-core-lockscroll"] }, "moodle-core-notification-alert": { "requires": ["moodle-core-notification-dialogue"] }, "moodle-core-notification-confirm": { "requires": ["moodle-core-notification-dialogue"] }, "moodle-core-notification-exception": { "requires": ["moodle-core-notification-dialogue"] }, "moodle-core-notification-ajaxexception": { "requires": ["moodle-core-notification-dialogue"] }, "moodle-core-handlebars": { "condition": { "trigger": "handlebars", "when": "after" } }, "moodle-core-blocks": { "requires": ["base", "node", "io", "dom", "dd", "dd-scroll", "moodle-core-dragdrop", "moodle-core-notification"] }, "moodle-core-chooserdialogue": { "requires": ["base", "panel", "moodle-core-notification"] }, "moodle-core_availability-form": { "requires": ["base", "node", "event", "event-delegate", "panel", "moodle-core-notification-dialogue", "json"] }, "moodle-course-dragdrop": { "requires": ["base", "node", "io", "dom", "dd", "dd-scroll", "moodle-core-dragdrop", "moodle-core-notification", "moodle-course-coursebase", "moodle-course-util"] }, "moodle-course-util": { "requires": ["node"], "use": ["moodle-course-util-base"], "submodules": { "moodle-course-util-base": {}, "moodle-course-util-section": { "requires": ["node", "moodle-course-util-base"] }, "moodle-course-util-cm": { "requires": ["node", "moodle-course-util-base"] } } }, "moodle-course-categoryexpander": { "requires": ["node", "event-key"] }, "moodle-course-management": { "requires": ["base", "node", "io-base", "moodle-core-notification-exception", "json-parse", "dd-constrain", "dd-proxy", "dd-drop", "dd-delegate", "node-event-delegate"] }, "moodle-form-shortforms": { "requires": ["node", "base", "selector-css3", "moodle-core-event"] }, "moodle-form-dateselector": { "requires": ["base", "node", "overlay", "calendar"] }, "moodle-question-chooser": { "requires": ["moodle-core-chooserdialogue"] }, "moodle-question-searchform": { "requires": ["base", "node"] }, "moodle-availability_completion-form": { "requires": ["base", "node", "event", "moodle-core_availability-form"] }, "moodle-availability_date-form": { "requires": ["base", "node", "event", "io", "moodle-core_availability-form"] }, "moodle-availability_grade-form": { "requires": ["base", "node", "event", "moodle-core_availability-form"] }, "moodle-availability_group-form": { "requires": ["base", "node", "event", "moodle-core_availability-form"] }, "moodle-availability_grouping-form": { "requires": ["base", "node", "event", "moodle-core_availability-form"] }, "moodle-availability_language-form": { "requires": ["base", "node", "event", "node-event-simulate", "moodle-core_availability-form"] }, "moodle-availability_profile-form": { "requires": ["base", "node", "event", "moodle-core_availability-form"] }, "moodle-qtype_musictheory-musictheoryui": { "requires": ["base", "node", "datatype", "panel", "dd-plugin"] }, "moodle-qtype_musictheory-musictheoryqtype": { "requires": ["base", "node", "datatype", "node-event-simulate"] }, "moodle-qtype_musictheory-musictheorykeyboardui": { "requires": ["base", "node", "datatype"] }, "moodle-mod_assign-history": { "requires": ["node", "transition"] }, "moodle-mod_offlinequiz-dragdrop": { "requires": ["base", "node", "io", "dom", "dd", "dd-scroll", "moodle-core-dragdrop", "moodle-core-notification", "moodle-mod_offlinequiz-offlinequizbase", "moodle-mod_offlinequiz-util-base", "moodle-mod_offlinequiz-util-page", "moodle-mod_offlinequiz-util-slot", "moodle-course-util"] }, "moodle-mod_offlinequiz-util": { "requires": ["node"], "use": ["moodle-mod_offlinequiz-util-base"], "submodules": { "moodle-mod_offlinequiz-util-base": {}, "moodle-mod_offlinequiz-util-slot": { "requires": ["node", "moodle-mod_offlinequiz-util-base"] }, "moodle-mod_offlinequiz-util-page": { "requires": ["node", "moodle-mod_offlinequiz-util-base"] } } }, "moodle-mod_offlinequiz-modform": { "requires": ["base", "node", "event"] }, "moodle-mod_offlinequiz-autosave": { "requires": ["base", "node", "event", "event-valuechange", "node-event-delegate", "io-form"] }, "moodle-mod_offlinequiz-randomquestion": { "requires": ["base", "event", "node", "io", "moodle-core-notification-dialogue"] }, "moodle-mod_offlinequiz-repaginate": { "requires": ["base", "event", "node", "io", "moodle-core-notification-dialogue"] }, "moodle-mod_offlinequiz-offlinequizbase": { "requires": ["base", "node"] }, "moodle-mod_offlinequiz-questionchooser": { "requires": ["moodle-core-chooserdialogue", "moodle-mod_offlinequiz-util", "querystring-parse"] }, "moodle-mod_offlinequiz-toolboxes": { "requires": ["base", "node", "event", "event-key", "io", "moodle-mod_offlinequiz-offlinequizbase", "moodle-mod_offlinequiz-util-slot", "moodle-core-notification-ajaxexception"] }, "moodle-mod_quiz-dragdrop": { "requires": ["base", "node", "io", "dom", "dd", "dd-scroll", "moodle-core-dragdrop", "moodle-core-notification", "moodle-mod_quiz-quizbase", "moodle-mod_quiz-util-base", "moodle-mod_quiz-util-page", "moodle-mod_quiz-util-slot", "moodle-course-util"] }, "moodle-mod_quiz-util": { "requires": ["node", "moodle-core-actionmenu"], "use": ["moodle-mod_quiz-util-base"], "submodules": { "moodle-mod_quiz-util-base": {}, "moodle-mod_quiz-util-slot": { "requires": ["node", "moodle-mod_quiz-util-base"] }, "moodle-mod_quiz-util-page": { "requires": ["node", "moodle-mod_quiz-util-base"] } } }, "moodle-mod_quiz-modform": { "requires": ["base", "node", "event"] }, "moodle-mod_quiz-autosave": { "requires": ["base", "node", "event", "event-valuechange", "node-event-delegate", "io-form", "datatype-date-format"] }, "moodle-mod_quiz-quizbase": { "requires": ["base", "node"] }, "moodle-mod_quiz-questionchooser": { "requires": ["moodle-core-chooserdialogue", "moodle-mod_quiz-util", "querystring-parse"] }, "moodle-mod_quiz-toolboxes": { "requires": ["base", "node", "event", "event-key", "io", "moodle-mod_quiz-quizbase", "moodle-mod_quiz-util-slot", "moodle-core-notification-ajaxexception"] }, "moodle-message_airnotifier-toolboxes": { "requires": ["base", "node", "io"] }, "moodle-editor_atto-rangy": { "requires": [] }, "moodle-editor_atto-editor": { "requires": ["node", "transition", "io", "overlay", "escape", "event", "event-simulate", "event-custom", "node-event-html5", "node-event-simulate", "yui-throttle", "moodle-core-notification-dialogue", "moodle-editor_atto-rangy", "handlebars", "timers", "querystring-stringify"] }, "moodle-editor_atto-plugin": { "requires": ["node", "base", "escape", "event", "event-outside", "handlebars", "event-custom", "timers", "moodle-editor_atto-menu"] }, "moodle-editor_atto-menu": { "requires": ["moodle-core-notification-dialogue", "node", "event", "event-custom"] }, "moodle-report_eventlist-eventfilter": { "requires": ["base", "event", "node", "node-event-delegate", "datatable", "autocomplete", "autocomplete-filters"] }, "moodle-report_loglive-fetchlogs": { "requires": ["base", "event", "node", "io", "node-event-delegate"] }, "moodle-gradereport_history-userselector": { "requires": ["escape", "event-delegate", "event-key", "handlebars", "io-base", "json-parse", "moodle-core-notification-dialogue"] }, "moodle-qbank_editquestion-chooser": { "requires": ["moodle-core-chooserdialogue"] }, "moodle-tool_lp-dragdrop-reorder": { "requires": ["moodle-core-dragdrop"] }, "moodle-assignfeedback_editpdf-editor": { "requires": ["base", "event", "node", "io", "graphics", "json", "event-move", "event-resize", "transition", "querystring-stringify-simple", "moodle-core-notification-dialog", "moodle-core-notification-alert", "moodle-core-notification-warning", "moodle-core-notification-exception", "moodle-core-notification-ajaxexception"] }, "moodle-atto_accessibilitychecker-button": { "requires": ["color-base", "moodle-editor_atto-plugin"] }, "moodle-atto_accessibilityhelper-button": { "requires": ["moodle-editor_atto-plugin"] }, "moodle-atto_align-button": { "requires": ["moodle-editor_atto-plugin"] }, "moodle-atto_bold-button": { "requires": ["moodle-editor_atto-plugin"] }, "moodle-atto_charmap-button": { "requires": ["moodle-editor_atto-plugin"] }, "moodle-atto_chemistry-button": { "requires": ["moodle-editor_atto-plugin", "moodle-core-event", "io", "event-valuechange", "tabview", "array-extras"] }, "moodle-atto_clear-button": { "requires": ["moodle-editor_atto-plugin"] }, "moodle-atto_collapse-button": { "requires": ["moodle-editor_atto-plugin"] }, "moodle-atto_emojipicker-button": { "requires": ["moodle-editor_atto-plugin"] }, "moodle-atto_emoticon-button": { "requires": ["moodle-editor_atto-plugin"] }, "moodle-atto_equation-button": { "requires": ["moodle-editor_atto-plugin", "moodle-core-event", "io", "event-valuechange", "tabview", "array-extras"] }, "moodle-atto_h5p-button": { "requires": ["moodle-editor_atto-plugin"] }, "moodle-atto_html-beautify": {}, "moodle-atto_html-codemirror": { "requires": ["moodle-atto_html-codemirror-skin"] }, "moodle-atto_html-button": { "requires": ["promise", "moodle-editor_atto-plugin", "moodle-atto_html-beautify", "moodle-atto_html-codemirror", "event-valuechange"] }, "moodle-atto_image-button": { "requires": ["moodle-editor_atto-plugin"] }, "moodle-atto_indent-button": { "requires": ["moodle-editor_atto-plugin"] }, "moodle-atto_italic-button": { "requires": ["moodle-editor_atto-plugin"] }, "moodle-atto_link-button": { "requires": ["moodle-editor_atto-plugin"] }, "moodle-atto_managefiles-usedfiles": { "requires": ["node", "escape"] }, "moodle-atto_managefiles-button": { "requires": ["moodle-editor_atto-plugin"] }, "moodle-atto_mathslate-textool": { "requires": ["dd-drag", "dd-proxy", "dd-drop", "event", "json"] }, "moodle-atto_mathslate-snippeteditor": { "requires": ["json"] }, "moodle-atto_mathslate-editor": { "requires": ["dd-drag", "dd-proxy", "dd-drop", "event", "tabview", "io-base", "json", "moodle-atto_mathslate-textool", "moodle-atto_mathslate-mathjaxeditor"] }, "moodle-atto_mathslate-mathjaxeditor": { "requires": ["moodle-atto_mathslate-snippeteditor", "dd-drop"] }, "moodle-atto_media-button": { "requires": ["moodle-editor_atto-plugin", "moodle-form-shortforms"] }, "moodle-atto_noautolink-button": { "requires": ["moodle-editor_atto-plugin"] }, "moodle-atto_orderedlist-button": { "requires": ["moodle-editor_atto-plugin"] }, "moodle-atto_recordrtc-button": { "requires": ["moodle-editor_atto-plugin", "moodle-atto_recordrtc-recording"] }, "moodle-atto_recordrtc-recording": { "requires": ["moodle-atto_recordrtc-button"] }, "moodle-atto_rtl-button": { "requires": ["moodle-editor_atto-plugin"] }, "moodle-atto_strike-button": { "requires": ["moodle-editor_atto-plugin"] }, "moodle-atto_subscript-button": { "requires": ["moodle-editor_atto-plugin"] }, "moodle-atto_superscript-button": { "requires": ["moodle-editor_atto-plugin"] }, "moodle-atto_table-button": { "requires": ["moodle-editor_atto-plugin", "moodle-editor_atto-menu", "event", "event-valuechange"] }, "moodle-atto_title-button": { "requires": ["moodle-editor_atto-plugin"] }, "moodle-atto_underline-button": { "requires": ["moodle-editor_atto-plugin"] }, "moodle-atto_undo-button": { "requires": ["moodle-editor_atto-plugin"] }, "moodle-atto_unorderedlist-button": { "requires": ["moodle-editor_atto-plugin"] }, "moodle-atto_wiris-button": { "requires": ["moodle-editor_atto-plugin", "get"] } } }, "gallery": { "name": "gallery", "base": "https:\/\/lasallegirona.sallenet.org\/lib\/yuilib\/gallery\/", "combine": true, "comboBase": "https:\/\/lasallegirona.sallenet.org\/theme\/yui_combo.php?", "ext": false, "root": "gallery\/1777415323\/", "patterns": { "gallery-": { "group": "gallery" } } } }, "modules": { "core_filepicker": { "name": "core_filepicker", "fullpath": "https:\/\/lasallegirona.sallenet.org\/lib\/javascript.php\/1777415323\/repository\/filepicker.js", "requires": ["base", "node", "node-event-simulate", "json", "async-queue", "io-base", "io-upload-iframe", "io-form", "yui2-treeview", "panel", "cookie", "datatable", "datatable-sort", "resize-plugin", "dd-plugin", "escape", "moodle-core_filepicker", "moodle-core-notification-dialogue"] }, "core_comment": { "name": "core_comment", "fullpath": "https:\/\/lasallegirona.sallenet.org\/lib\/javascript.php\/1777415323\/comment\/comment.js", "requires": ["base", "io-base", "node", "json", "yui2-animation", "overlay", "escape"] } }, "logInclude": [], "logExclude": [], "logLevel": null };
+        M.yui.loader = { modules: {} };
+
+        //]]>
+    </script>
+
+    <!----------------------- SCRIPT PARA LA TRADUCCIÓN DE RÚBRICAS -------------->
+    <script>
+        function hideLangs(lang) {
+            lang = lang.replace('~', '').trim();
+            console.log('Ejecutando hideLangs para idioma ' + lang);
+            setTimeout(function () {
+                document
+                    .querySelectorAll(
+                        '.gradingform_rubric .description, .gradingform_rubric .definition'
+                    )
+                    .forEach(function (el) {
+                        var langs = ['es', 'eu', 'ca', 'gl', 'en', 'ca_valencia', 'ca_ct'];
+                        var nombres = el.innerHTML.split(' / ');
+                        var index = langs.indexOf(lang) < 0 ? 0 : langs.indexOf(lang);
+                        if (window.location.href.indexOf('rubric/edit.php') == -1) {
+                            el.innerHTML = nombres[index] ? nombres[index] : nombres[0];
+                        }
+                    });
+            }, 300);
+            setTimeout(function () {
+                hideLangs(lang);
+            }, 3000);
+        }
+        window.onload = function () {
+            var lang = M.cfg.language;
+            hideLangs(lang);
+        };
+    </script>
+    <!--------------------- FIN SCRIPT PARA LA TRADUCCIÓN DE RÚBRICAS ------------>
+    <meta name="robots" content="noindex" />
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @font-face {
+            font-family: 'Open Sans';
+            src: url('../theme/font.php/sallenetboost/1777415323/OpenSans-Light.ttf') format('truetype');
+            font-weight: 300;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Open Sans';
+            src: url('../theme/font.php/sallenetboost/1777415323/OpenSans-Regular.ttf') format('truetype');
+            font-weight: 400;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Open Sans';
+            src: url('../theme/font.php/sallenetboost/1777415323/OpenSans-Bold.ttf') format('truetype');
+            font-weight: 700;
+            font-style: normal;
+        }
+        body, html {
+            font-family: 'Open Sans', sans-serif !important;
+        }
+    </style>
+</head>
+
+<body id="page-login-index"
+    class="format-site  path-login chrome dir-ltr lang-ca yui-skin-sam yui3-skin-sam lasallegirona-sallenet-org pagelayout-login course-1 context-1 notloggedin theme ">
+    <div class="toast-wrapper mx-auto py-0 fixed-top" role="status" aria-live="polite"></div>
+
+    <div id="page-wrapper">
+
+        <div id="modal_navegadores" class="modal-avisos" style="display: block !important;">
+            <img class="modal-avisos-img" src="../theme/sallenetboost/pix/ico-advertencia.svg" alt="Advertencia">
+            <div class="modal-avisos-container">
+                <p>
+                    <b>Ups, parece que tu navegador no es compatible con Sallenet.</b>
+                </p>
+                <p>
+                    Para disfrutar de todas las funciones y una experiencia de uso óptima te recomendamos un navegador
+                    alternativo, como <a href="https://www.google.com/intl/es_es/chrome/" target="_blank"
+                        class="modal-avisos-enlace"><u>Google Chrome</u></a> o <a
+                        href="https://www.mozilla.org/es-ES/firefox/" target="_blank"
+                        class="modal-avisos-enlace"><u>Mozilla Firefox</u></a>.
+                </p>
+            </div>
+            <div class="modal-avisos-close-button">
+                <a href="#" onclick="document.getElementById('modal_navegadores').setAttribute('style', 'display: none !important'); return false;">X</a>
+            </div>
+        </div>
+
+        <div>
+            <a class="sr-only sr-only-focusable" href="#maincontent">Ves al contingut principal</a>
+        </div>
+        <script src="../lib/javascript.php/1777415323/lib/polyfills/polyfill.js"></script>
+        <script src="../theme/yui_combo.php?rollup/3.18.1/yui-moodlesimple-min.js"></script>
+        <script src="../lib/javascript.php/1777415323/lib/javascript-static.js"></script>
+        <script src="../theme/javascript.php/sallenetboost/1777415323/head"></script>
+        <script>
+            //<![CDATA[
+            document.body.className += ' jsenabled';
+            //]]>
+        </script>
+
+        <div class="eupopup eupopup-container eupopup-container-block eupopup-container-bottom eupopup-block eupopup-style-compact"
+            role="dialog" aria-label="Polítiques">
+        </div>
+        <div class="eupopup-markup d-none">
+            <div class="eupopup-head"></div>
+            <div class="eupopup-body">
+                Si continueu navegant per aquest lloc web, això implica que accepteu les polítiques:
+                <ul>
+                    <li>
+                        <a href="https://lasallegirona.sallenet.org/admin/tool/policy/view.php?versionid=9&amp;returnurl=https%3A%2F%2Flasallegirona.sallenet.org%2Flogin%2Findex.php"
+                            data-action="view-guest" data-versionid="9" data-behalfid="1">
+                            Políticas generales de cookies
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://lasallegirona.sallenet.org/admin/tool/policy/view.php?versionid=10&amp;returnurl=https%3A%2F%2Flasallegirona.sallenet.org%2Flogin%2Findex.php"
+                            data-action="view-guest" data-versionid="10" data-behalfid="1">
+                            Política de privacidad
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://lasallegirona.sallenet.org/admin/tool/policy/view.php?versionid=11&amp;returnurl=https%3A%2F%2Flasallegirona.sallenet.org%2Flogin%2Findex.php"
+                            data-action="view-guest" data-versionid="11" data-behalfid="1">
+                            Aviso legal
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://lasallegirona.sallenet.org/admin/tool/policy/view.php?versionid=12&amp;returnurl=https%3A%2F%2Flasallegirona.sallenet.org%2Flogin%2Findex.php"
+                            data-action="view-guest" data-versionid="12" data-behalfid="1">
+                            Cookies de Google Analytics
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://lasallegirona.sallenet.org/admin/tool/policy/view.php?versionid=13&amp;returnurl=https%3A%2F%2Flasallegirona.sallenet.org%2Flogin%2Findex.php"
+                            data-action="view-guest" data-versionid="13" data-behalfid="1">
+                            Cookies de Google
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://lasallegirona.sallenet.org/admin/tool/policy/view.php?versionid=14&amp;returnurl=https%3A%2F%2Flasallegirona.sallenet.org%2Flogin%2Findex.php"
+                            data-action="view-guest" data-versionid="14" data-behalfid="1">
+                            Cookies de Moodle
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="eupopup-buttons">
+                <a href="#" class="eupopup-button eupopup-button_1">Continua</a>
+            </div>
+            <div class="clearfix"></div>
+            <a href="#" class="eupopup-closebutton">x</a>
+        </div>
+
+        <div id="sn-login-page">
+            <div id="sn-login-page-content">
+                <div id="sn-region-main-box">
+                    <section id="salle-logos" aria-label="Contingut">
+                        <div class="salle-logos-wrapper">
+                            <div class="sn-img-stars-container">
+                                <img src="../theme/sallenetboost/pix/imagen_centro_login.png" style="height:100%" />
+                                <div id="imagen1" class="logo-overlay text-center">
+                                    <img src="../mod/sallenet/logo_sallenet.png" width="40%"
+                                        style="background: transparent;" />
+                                </div>
+                                <div id="imagen2" class="logo-overlay text-center">
+                                    <img src="../theme/sallenetboost/pix/logo_sallenet.svg" width="30%"
+                                        style="background: transparent;" />
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="salle-login-form" class="" aria-label="Contingut">
+                        <div class="login-wrapper">
+                            <div class="sn-login-container">
+                                <div role="main"><span id="maincontent"></span>
+                                    <div class="loginform">
+
+                                        <h1 class="login-heading mb-4">Start session</h1>
+
+
+
+
+
+
+                                        <form class="login-form"
+                                            action="https://lasallegirona.sallenet.org/login/index.php" method="post"
+                                            id="login">
+                                            <input id="anchor" type="hidden" name="anchor" value="">
+                                            <script>document.getElementById('anchor').value = location.hash;</script>
+
+                                            <!-- ONE logintoken hidden input inside main login form -->
+                                            <input type="hidden" name="logintoken"
+                                                value="jozu5dSKodGfLTsuoC6KxqCDvm9LHHU9">
+
+                                            <div class="login-form-username mb-3">
+                                                <label for="username" class="sr-only">
+                                                    Nom d'usuari
+                                                </label>
+                                                <input class="sn-login-input" type="text" name="username" id="username"
+                                                    value="" placeholder="Nom d&#039;usuari" autocomplete="username">
+                                            </div>
+
+                                            <div class="login-form-password mb-3">
+                                                <label for="password" class="sr-only">Contrasenya</label>
+                                                <input class="sn-login-input" type="password" name="password"
+                                                    id="password" value="" placeholder="Contrasenya"
+                                                    autocomplete="current-password">
+                                            </div>
+
+
+                                            <div id="turnstile-container" class="cf-turnstile"
+                                                data-sitekey="0x4AAAAAAAxmlB17p_UkctMj"
+                                                data-callback="turnstileCallback">
+                                            </div>
+
+                                            <script>
+                                                let tokenReady = false;
+                                                function turnstileCallback(token) {
+                                                    tokenReady = true;
+                                                    document.getElementById('loginbtn').disabled = false;
+                                                }
+                                                document.getElementById('loginbtn').disabled = true;
+                                            </script>
+
+                                            <div class="login-form-submit mb-3">
+                                                <button class="btn btn-primary sn-btn-login" type="submit"
+                                                    id="loginbtn">Inicia la sessió</button>
+                                            </div>
+
+                                            <div class="login-form-forgotpassword mb-3">
+                                                <a href="https://lasallegirona.sallenet.org/login/forgot_password.php">Heu
+                                                    oblidat la contrasenya?</a>
+                                            </div>
+                                        </form>
+
+                                        <h4 class="h4login">Autentiqueu-vos utilitzant el vostre compte a:</h4>
+                                        <div class="potentialidplist mt-3 mb-5"
+                                            style="max-height: 125px; overflow-y: auto; display: block;">
+                                            <div class="potentialidp">
+                                                <a href="https://proyectoalambique.sallenet.org/sop/auth/mnet/jump.php?hostwwwroot=https%3A%2F%2Flasallegirona.sallenet.org&amp;wantsurl=%2Flogin%2Findex.html&amp;remoteurl=1"
+                                                    title="ALAMBIQUE">
+                                                    <img src="../theme/sallenetboost/pix/ls/gestionmoodle.svg" alt=""
+                                                        width="24" height="24" />
+                                                    &nbsp; | &nbsp;ALAMBIQUE
+                                                </a>
+                                            </div>
+                                            <div class="potentialidp">
+                                                <a href="https://indivisacat.sallenet.org/auth/mnet/jump.php?hostwwwroot=https%3A%2F%2Flasallegirona.sallenet.org&amp;wantsurl=%2Flogin%2Findex.html&amp;remoteurl=1"
+                                                    title="INDIVISA CATALU\u00d1A: Iniciar sesi\u00f3n en el sitio">
+                                                    <img src="../theme/sallenetboost/pix/ls/gestionmoodle.svg" alt=""
+                                                        width="24" height="24" />
+                                                    &nbsp; | &nbsp;INDIVISA CATALUÑA: Iniciar sesión en el sitio
+                                                </a>
+                                            </div>
+                                            <div class="potentialidp">
+                                                <a href="https://lasallegirona.sallenet.org/auth/oauth2/login.php?id=1&amp;wantsurl=https%3A%2F%2Flasallegirona.sallenet.org%2Flogin%2Findex.html&amp;sesskey=FcQNih0lrl"
+                                                    title="Microsoft">
+                                                    <img src="../theme/sallenetboost/pix/ls/gestionmoodle.svg" alt=""
+                                                        width="24" height="24" />
+                                                    &nbsp; | &nbsp;Microsoft
+                                                </a>
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <div class="login-divider"></div>
+
+                                        <h4 class="h4login">Follow us in</h4>
+                                        <div id="redes_sociales">
+                                            <div>
+                                                <a href="https://girona.lasalle.cat/" target="_blank"
+                                                    title="School web address">
+                                                    <img src="../theme/sallenetboost/pix/rrss/rrss_web.svg"
+                                                        style="padding: 7px;" />
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="https://www.instagram.com/lasallegirona/" target="_blank"
+                                                    title="Instagram">
+                                                    <img src="../theme/sallenetboost/pix/rrss/rrss_instagram.svg"
+                                                        style="padding: 7px;" />
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="https://www.youtube.com/channel/UCiQWNGbWoDiQfQKakJZfZTg"
+                                                    target="_blank" title="Youtube">
+                                                    <img src="../theme/sallenetboost/pix/rrss/rrss_youtube.svg"
+                                                        style="padding: 7px;" />
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div style="display:none">
+                                            <div class="login-languagemenu">
+                                                <div class="action-menu moodle-actionmenu" id="action-menu-0"
+                                                    data-enhance="moodle-core-actionmenu">
+
+                                                    <div class="menubar d-flex " id="action-menu-0-menubar">
+
+
+
+
+                                                        <div class="action-menu-trigger">
+                                                            <div class="dropdown">
+                                                                <a href="#" tabindex="0"
+                                                                    class=" dropdown-toggle icon-no-margin"
+                                                                    id="action-menu-toggle-0" aria-label="Català ‎(ca)‎"
+                                                                    data-toggle="dropdown" role="button"
+                                                                    aria-haspopup="true" aria-expanded="false"
+                                                                    aria-controls="action-menu-0-menu">
+
+                                                                    Català ‎(ca)‎
+
+                                                                    <b class="caret"></b>
+                                                                </a>
+                                                                <div class="dropdown-menu menu dropdown-menu-right"
+                                                                    id="action-menu-0-menu" data-rel="menu-content"
+                                                                    aria-labelledby="action-menu-toggle-0" role="menu">
+                                                                    <a href="../login/index.php?lang=ca_ct"
+                                                                        class="dropdown-item menu-action"
+                                                                        data-lang="ca_ct" lang="ca" role="menuitem"
+                                                                        tabindex="-1">
+                                                                        <span class="menu-action-text">Català
+                                                                            ‎(ca_ct)‎</span>
+                                                                    </a>
+                                                                    <a href="#" class="dropdown-item menu-action"
+                                                                        role="menuitem" tabindex="-1">
+                                                                        <span class="menu-action-text">Català
+                                                                            ‎(ca)‎</span>
+                                                                    </a>
+                                                                    <a href="../login/index.php?lang=en"
+                                                                        class="dropdown-item menu-action" data-lang="en"
+                                                                        lang="en" role="menuitem" tabindex="-1">
+                                                                        <span class="menu-action-text">English
+                                                                            ‎(en)‎</span>
+                                                                    </a>
+                                                                    <a href="../login/index.php?lang=es"
+                                                                        class="dropdown-item menu-action" data-lang="es"
+                                                                        lang="es" role="menuitem" tabindex="-1">
+                                                                        <span class="menu-action-text">Español -
+                                                                            Internacional ‎(es)‎</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="divider border-start align-self-center mx-3"></div>
+                                            <button type="button" class="btn btn-secondary" data-modal="alert"
+                                                data-modal-title-str='["cookiesenabled", "core"]'
+                                                data-modal-content-str='["cookiesenabled_help_html", "core"]'>
+                                                Avís de galetes
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <footer id="page-footer" class="footer-popover bg-white">
+            <div data-region="footer-container-popover">
+                <button class="btn btn-icon bg-secondary icon-no-margin btn-footer-popover" data-action="footer-popover"
+                    aria-label="Show footer">
+                    <i class="icon fa fa-question fa-fw " aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="footer-content-popover container" data-region="footer-content-popover">
+                <div class="footer-section p-3 border-bottom">
+                    <div class="logininfo">
+                        <div class="logininfo">No heu iniciat sessió</div>
+                    </div>
+                    <div class="tool_usertours-resettourcontainer">
+                    </div>
+
+                    <div class="tool_dataprivacy"><a
+                            href="https://lasallegirona.sallenet.org/admin/tool/dataprivacy/summary.php">Resum de
+                            retenció de dades</a></div>
+                    <div class="policiesfooter"><a
+                            href="https://lasallegirona.sallenet.org/admin/tool/policy/viewall.php?returnurl=https%3A%2F%2Flasallegirona.sallenet.org%2Flogin%2Findex.php">Condicions
+                            d'ús</a></div>
+                    <script>
+                        //<![CDATA[
+                        var require = {
+                            baseUrl: 'https://lasallegirona.sallenet.org/lib/requirejs.php/1777415323/',
+                            // We only support AMD modules with an explicit define() statement.
+                            enforceDefine: true,
+                            skipDataMain: true,
+                            waitSeconds: 0,
+
+                            paths: {
+                                jquery: 'https://lasallegirona.sallenet.org/lib/javascript.php/1777415323/lib/jquery/jquery-3.7.1.min',
+                                jqueryui: 'https://lasallegirona.sallenet.org/lib/javascript.php/1777415323/lib/jquery/ui-1.13.2/jquery-ui.min',
+                                jqueryprivate: 'https://lasallegirona.sallenet.org/lib/javascript.php/1777415323/lib/requirejs/jquery-private'
+                            },
+
+                            // Custom jquery config map.
+                            map: {
+                                // '*' means all modules will get 'jqueryprivate'
+                                // for their 'jquery' dependency.
+                                '*': { jquery: 'jqueryprivate' },
+
+                                // 'jquery-private' wants the real jQuery module
+                                // though. If this line was not here, there would
+                                // be an unresolvable cyclic dependency.
+                                jqueryprivate: { jquery: 'jquery' }
+                            }
+                        };
+
+                        //]]>
+                    </script>
+                    <script
+                        src="https://lasallegirona.sallenet.org/lib/javascript.php/1777415323/lib/requirejs/require.min.js"></script>
+                    <script>
+                        //<![CDATA[
+                        M.util.js_pending("core/first");
+                        require(['core/first'], function () {
+                            require(['core/prefetch'])
+                                ;
+                            require(["media_videojs/loader"], function (loader) {
+                                loader.setUp('ca');
+                            });;
+
+                            require(['jquery', 'tool_policy/jquery-eu-cookie-law-popup', 'tool_policy/policyactions'], function ($, Popup, ActionsMod) {
+                                // Initialise the guest popup.
+                                $(document).ready(function () {
+                                    // Initialize popup.
+                                    $(document.body).addClass('eupopup');
+                                    if ($(".eupopup").length > 0) {
+                                        $(document).euCookieLawPopup().init();
+                                    }
+
+                                    // Initialise the JS for the modal window which displays the policy versions.
+                                    ActionsMod.init('[data-action="view-guest"]');
+                                });
+                            });
+                            ;
+
+                            require(['theme_boost/footer-popover'], function (FooterPopover) {
+                                FooterPopover.init();
+                            });
+                            ;
+
+                            M.util.js_pending('theme_boost/loader');
+                            require(['theme_boost/loader'], function () {
+                                M.util.js_complete('theme_boost/loader');
+                            });
+                            ;
+
+                            require(['core/togglesensitive'], function (ToggleSensitive) {
+                                ToggleSensitive.init("password", 1);
+                            });
+                            require(['core_form/submit'], function (Submit) {
+                                Submit.init("loginbtn");
+                            });
+                            ;
+                            M.util.js_pending('core/notification'); require(['core/notification'], function (amd) { amd.init(1, []); M.util.js_complete('core/notification'); });;
+                            M.util.js_pending('core/log'); require(['core/log'], function (amd) { amd.setConfig({ "level": "warn" }); M.util.js_complete('core/log'); });;
+                            M.util.js_pending('core/page_global'); require(['core/page_global'], function (amd) { amd.init(); M.util.js_complete('core/page_global'); });;
+                            M.util.js_pending('core/utility'); require(['core/utility'], function (amd) { M.util.js_complete('core/utility'); });;
+                            M.util.js_pending('core/storage_validation'); require(['core/storage_validation'], function (amd) { amd.init(null); M.util.js_complete('core/storage_validation'); });
+                            M.util.js_complete("core/first");
+                        });
+                        //]]>
+                    </script>
+                    <script>
+                        //<![CDATA[
+                        M.str = { "moodle": { "lastmodified": "Darrera modificaci\u00f3", "name": "Nom", "error": "Error", "info": "Informaci\u00f3", "yes": "S\u00ed", "no": "No", "cancel": "Cancel\u00b7la", "confirm": "Confirma", "areyousure": "Segur que voleu tirar endavant aquesta acci\u00f3?", "closebuttontitle": "Tanca", "unknownerror": "Error desconegut", "file": "Fitxer", "url": "URL", "collapseall": "Contreu-ho tot", "expandall": "Expandeix-ho tot" }, "repository": { "type": "Tipus", "size": "Mida", "invalidjson": "Cadena JSON inv\u00e0lida", "nofilesattached": "No s'ha adjuntat cap fitxer", "filepicker": "Selector de fitxers", "logout": "Tanca la sessi\u00f3", "nofilesavailable": "Cap fitxer disponible", "norepositoriesavailable": "Cap dels vostres repositoris actuals pot retornar fitxers del format requerit.", "fileexistsdialogheader": "El fitxer existeix", "fileexistsdialog_editor": "Ja s'ha adjuntat un fitxer amb aquest nom al text que esteu editant", "fileexistsdialog_filemanager": "Ja s'ha adjuntat un fitxer amb aquest nom", "renameto": "Canvia el nom a \"{$a}\"", "referencesexist": "Hi ha {$a} \u00e0lies o accessos directes de fitxer que utilitzen aquest fitxer com a font", "select": "Selecciona" }, "admin": { "confirmdeletecomments": "Confirmeu que voleu esborrar els comentaris seleccionats?", "confirmation": "Confirmaci\u00f3" }, "debug": { "debuginfo": "Informaci\u00f3 de depuraci\u00f3", "line": "L\u00ednia", "stacktrace": "Tra\u00e7a de la pila" }, "langconfig": { "labelsep": ":" } };
+                        //]]>
+                    </script>
+                    <script>
+                        //<![CDATA[
+                        (function () {
+                            M.util.help_popups.setup(Y);
+                            M.util.js_pending('random69f5ead693af36'); Y.on('domready', function () { M.util.js_complete("init"); M.util.js_complete('random69f5ead693af36'); });
+                        })();
+                        //]]>
+                    </script>
+
+                </div>
+                <div class="footer-section p-3">
+                    <div>Funciona amb <a href="https://moodle.com">Moodle</a></div>
+                </div>
+            </div>
+
+            <div class="footer-content-debugging footer-dark bg-dark text-light">
+                <div class="container-fluid footer-dark-inner">
+
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>
