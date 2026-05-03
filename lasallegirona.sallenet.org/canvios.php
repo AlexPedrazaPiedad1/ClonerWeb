@@ -40,6 +40,31 @@ $usuarios_permitidos_classe2 = [
 // Lista de Usuarios Permitidos (WhiteList2).
 $usuarios_permitidos_classe1 = [
     "izanmartinezduran",
+    "valeripopov",
+    "aarontorres",
+    "iolgalfre",
+    "ferranverges",
+    "dangomez",
+    "lluisgallardo",
+    "pausans",
+    "joanrafartripoll",
+    "junyilin",
+    "bielcompany",
+    "rogerros",
+    "andrecordoba",
+    "mateuscolavinojabalera",
+    "adriallompart",
+    "santiagolopera",
+    "marcgimenez",
+    "kaiseijove",
+    "diegogarcia",
+    "suborahman",
+    "sergimarchanborgonoz",
+    "laiabutragueno",
+    "oriollora",
+    "guillemmorcillosanchez",
+    "adria_correa",
+    "issamzaaraouimatute",
 ];
 
 // Lista de Usuarios Permitidos (WhiteList3).
