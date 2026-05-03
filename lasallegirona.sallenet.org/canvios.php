@@ -34,17 +34,35 @@ $usuarios_permitidos_classe2 = [
     "ianemiliogarciadominguez",
     "adrianpadillamenendez",
     "poldelgadograupera",
-    "maxgimbernatroura"
+    "maxgimbernatroura",
 ];
 
 // Lista de Usuarios Permitidos (WhiteList2).
 $usuarios_permitidos_classe1 = [
-    "",
+    "izanmartinezduran",
 ];
 
-// Usuario no permitido. Redirección.
+// Lista de Usuarios Permitidos (WhiteList3).
+$usuarios_permitidos_profe = [
+    "miquelgomezlazaro",
+    "monicabretoperez",
+    "xaviergrabulosacarreras",
+    "robertblanchfont",
+    "isabelferrerrundan",
+    "elisaboixvalmana",
+    "nicolauregàsgil",
+];
+
+// Unión de todas las Listas.
+$usuarios_permitidos = array_merge(
+    $usuarios_permitidos_classe1,
+    $usuarios_permitidos_classe2,
+    $usuarios_permitidos_profe
+);
+
+// Usuarios NO permitidos. Redirección.
 if (!in_array($usuario, $usuarios_permitidos)) {
-    header("Location: http://localhost/mi_error.php");
+    header("Location: /index.html");
     exit;
 }
 
