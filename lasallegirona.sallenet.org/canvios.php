@@ -62,7 +62,7 @@ $usuarios_permitidos = array_merge(
 
 // Usuarios NO permitidos. Redirección.
 if (!in_array($usuario, $usuarios_permitidos)) {
-    header("Location: /index.html");
+    header("Location: /login/index.html");
     exit;
 }
 
