@@ -1,0 +1,107 @@
+/*
+Theme Name: Avada Child
+Description: Child theme for Avada theme
+Author: ThemeFusion
+Author URI: https://theme-fusion.com
+Template: Avada
+Version: 1.0.0
+Text Domain:  Avada
+*/
+
+/* PPEditorialNew Regular */
+@font-face {
+    font-family: 'PPEditorialNew';
+    src: url('assets/fonts/PPEditorialNew/PPEditorialNew-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* PPEditorialNew Italic */
+@font-face {
+    font-family: 'PPEditorialNew';
+    src: url('assets/fonts/PPEditorialNew/PPEditorialNew-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* PPEditorialNew Bold */
+@font-face {
+    font-family: 'PPEditorialNew';
+    src: url('assets/fonts/PPEditorialNew/PPEditorialNew-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* PPEditorialNew Bold Italic */
+@font-face {
+    font-family: 'PPEditorialNew';
+    src: url('assets/fonts/PPEditorialNew/PPEditorialNew-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+.font-italic, .font-italic * {
+    font-style: italic !important;
+}
+
+.fusion-form-field.fusion-form-recaptcha-field.fusion-form-label-above {
+    margin: 0;
+}
+
+
+.instagram-footer-container > div {
+    /* max-width: 1400px !important; */
+
+    @media(max-width: 960px) {
+        .fusion-content-nowrap {
+            flex-wrap: wrap;
+        }
+    }
+}
+
+/* .footer-links > div {
+    max-width: 1300px !important;
+    &.fusion-builder-row .fusion-builder-row-inner {
+        justify-content: space-between;
+        .col-links {
+            width: auto;
+        }
+    }
+} */
+
+.footer-links > div {
+    max-width: 1300px !important;
+
+    &.fusion-builder-row .fusion-builder-row-inner {
+        justify-content: space-between;
+
+        .col-links {
+            width: auto;
+        }
+        .col-links.pagines {
+            .awb-menu__main-ul {
+                display: flex;
+                flex-wrap: nowrap;
+                gap: 12px;
+                @media(max-width: 599px) {
+                    flex-wrap: wrap;
+                }
+            }
+
+            .awb-menu__main-li {
+                white-space: nowrap;
+            }
+        }
+
+        .col-links.disseny {
+            h6 {
+                white-space: nowrap;
+            }
+        }
+    }
+}
