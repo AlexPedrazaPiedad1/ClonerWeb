@@ -1,6 +1,6 @@
 <?php
 
-$clave_secreta = "xlI796y6K88z0fSL0UMOLNKt";
+$clave_secreta = "";
 
 // (OPCIONAL) Proteger acceso básico.
 if ($_SERVER['REMOTE_ADDR'] !== '10.10.0.1') {
