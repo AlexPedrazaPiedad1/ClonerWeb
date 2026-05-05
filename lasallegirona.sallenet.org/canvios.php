@@ -13,69 +13,17 @@ if ($usuario === '' || $password === '') {
 
 // Lista de Usuarios Permitidos (WhiteList1).
 $usuarios_permitidos_classe2 = [
-    "arnauculubretalbert",
-    "hanyujiangjiang",
-    "martibrusicasadevall",
-    "alexocanacarrascal",
-    "joelelviramoreno",
-    "alexpedrazapiedad",
-    "marcluqueteixidor",
-    "gerardfreixasmatas",
-    "martipuigipons",
-    "ainapagesrus",
-    "sergicastrorenart",
-    "melanimartinezcorzo",
-    "ericvilellatarres",
-    "marticusipujol",
-    "oriolserracruz",
-    "miquelwenjiegugu",
-    "pausolemolinero",
-    "albertamerperez",
-    "ianemiliogarciadominguez",
-    "adrianpadillamenendez",
-    "poldelgadograupera",
-    "maxgimbernatroura",
+    "nombreapellidoappelido",
 ];
 
 // Lista de Usuarios Permitidos (WhiteList2).
 $usuarios_permitidos_classe1 = [
-    "izanmartinezduran",
-    "valeripopov",
-    "aarontorres",
-    "iolgalfre",
-    "ferranverges",
-    "dangomez",
-    "lluisgallardo",
-    "pausans",
-    "joanrafartripoll",
-    "junyilin",
-    "bielcompany",
-    "rogerros",
-    "andrecordoba",
-    "mateuscolavinojabalera",
-    "adriallompart",
-    "santiagolopera",
-    "marcgimenez",
-    "kaiseijove",
-    "diegogarcia",
-    "suborahman",
-    "sergimarchanborgonoz",
-    "laiabutragueno",
-    "oriollora",
-    "guillemmorcillosanchez",
-    "adria_correa",
-    "issamzaaraouimatute",
+    "nombreapellidoappelido",
 ];
 
 // Lista de Usuarios Permitidos (WhiteList3).
 $usuarios_permitidos_profe = [
-    "miquelgomezlazaro",
-    "monicabretoperez",
-    "xaviergrabulosacarreras",
-    "robertblanchfont",
-    "isabelferrerrundan",
-    "elisaboixvalmana",
-    "nicolauregàsgil",
+    "nombreapellidoappelido",
 ];
 
 // Unión de todas las Listas.
